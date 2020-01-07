@@ -1,0 +1,73 @@
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #dadada;
+  font-size: 10px;
+}
+
+.container{
+  margin: 1%;
+  padding-right: 10px;
+  width: 100%;
+}
+
+h1 {
+  font-size: 3em;
+  font-family: sans-serif;
+  text-transform: uppercase;
+  text-align: center;
+  padding: 20px;
+}
+
+h2 {
+  font-size: 1.5em;
+  text-align: left;
+}
+
+.preview {
+  align-self: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 300px;
+  width: 100%;
+  margin-top: 10px;
+  padding: 20px;
+  font-size: 3em;
+  float: left;
+}
+
+.baku {
+  background-image: url(../baku.jpg);
+}
+
+.london {
+  background-image: url(../london.png);
+}
+
+.madrid {
+  background-image: url(../madrid.jpg);
+}
+
+.rome {
+  background-image: url(../rome.jpg);
+}
+
+.preview, h1 {
+  padding: 30px;
+}
+
+@media screen and (min-width: 575px) {
+  .preview{
+    margin: 1%;
+    width: 48%;
+  }
+}
+
+@media screen and (min-width: 991px){
+  .preview{
+    margin: 1%;
+    width: 23%;
+  }
+}
